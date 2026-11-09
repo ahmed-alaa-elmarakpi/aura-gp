@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# Virtual env (uv)
+.venv/
+
+# Environment & secrets
+.env
+.env.*
+!.env.example
+
+# Django
+*.sqlite3
+*.log
+/media/
+/staticfiles/
+/static_root/
+
+# Celery
+celerybeat-schedule
+celerybeat.pid
+
+# Testing / coverage
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+
+# Local data (docker volumes, dumps)
+/data/
+*.dump
